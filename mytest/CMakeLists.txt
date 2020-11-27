@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.0)
 project("glog Test" C CXX)
 
 option(BUILD_1_FIRST_TEST  "Build 1-first program"      ON)
-option(BUILD_2_SECOND_TEST "Build 2-second program"     OFF)
+option(BUILD_2_SECOND_TEST "Build 2-second program"     ON)
 
 #
 # if u wanna debug, do like this `cmake -DCMAKE_BUILD_TYPE=Debug`
