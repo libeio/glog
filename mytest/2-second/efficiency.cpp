@@ -87,11 +87,11 @@ int main()
         
         size_t i;
         
-        char buf[1024];
-        int bytes;
         
         b = now_time();
         for (i = 0; i < COUNT_FOR_TEST; i++) {
+            char buf[1024];
+            int bytes;
             bytes = snprintf(buf, 1024, "test type(uint64_t, double, int, std::string):uint64_t=%lu,double=%f,int=%d,str=%s",
                                         random64(), pi, gold100, str.c_str());
             LOG(INFO) << std::string(buf, buf + bytes);
