@@ -23,4 +23,4 @@
 
 2-second
 
-snprintf 要比 std::to_string 节省时间 7.4%
+snprintf 要比 std::to_string 节省时间 7% 左右
