@@ -21,6 +21,18 @@
 
 ## 效率测试
 
-2-second
+> 1-first
+
+认识 glog
+
+> 2-second
 
 snprintf 要比 std::to_string 节省时间 7% 左右
+
+> 3-third
+
+日志格式化测试
+
+> 4-fourth
+
+日志生命周期测试
