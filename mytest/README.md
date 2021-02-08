@@ -35,4 +35,4 @@ snprintf 要比 std::to_string 节省时间 7% 左右
 
 > 4-fourth
 
-日志生命周期测试
+日志尺寸设置测试
